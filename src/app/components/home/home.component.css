@@ -1,0 +1,30 @@
+.bg-color {
+  background-color: #1abc9c;
+}
+
+.star-divider {
+  position: relative;
+  display: inline-block;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.star-divider::before,
+.star-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  height: 4px;
+  background-color: white;
+}
+
+.star-divider::before {
+  right: 100%;
+  margin-right: 20px;
+}
+
+.star-divider::after {
+  left: 100%;
+  margin-left: 20px;
+}

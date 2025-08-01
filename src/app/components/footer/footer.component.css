@@ -1,0 +1,16 @@
+.bg-color {
+  background-color: #2c3e50;
+}
+
+h3,
+p,
+i {
+  color: white;
+}
+
+.ico {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+}

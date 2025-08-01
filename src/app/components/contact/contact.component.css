@@ -1,0 +1,56 @@
+.star-divider {
+  position: relative;
+  display: inline-block;
+  color: black;
+  font-size: 1.5rem;
+}
+.star-divider::before,
+.star-divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  height: 8px;
+  background-color: black;
+}
+.star-divider::before {
+  right: 100%;
+  margin-right: 15px;
+}
+.star-divider::after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.header {
+  font-size: 5rem;
+}
+
+.underline-input .form-control {
+  border: none;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.2rem;
+  padding: 1rem 0.75rem;
+}
+.underline-input .form-control:focus {
+  border-bottom-color: #28a745;
+  box-shadow: none;
+}
+.underline-input label {
+  color: #28a745;
+  font-weight: 500;
+}
+
+/* زرار */
+.custom-btn {
+  background-color: #20c997;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.custom-btn:hover {
+  background-color: #17a589;
+}
